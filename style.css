@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    
+    margin: 0;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #358597;
+    text-align: center;
+    border: 5px solid bisque;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.mhead{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.head{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 10vh;
+    color: white;
+    font-style: bold;
+    padding-bottom: 1rem; 
+   width: 52%;
+   line-height: 5rem;
+   cursor: default;
+}
+
+.main-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+    
+  border: 5px solid bisque;
+  /* border-left: none;
+  border-right: none; */
+  height: 60vh;
+  width: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+
+}
+
+.inner{
+    /* background-color: aquamarine; */
+    height: 45vh;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.buttt:hover{
+    opacity: 0.7;
+}
+
+.buttt{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border-radius: 1rem;
+
+}
+
+.msg{
+    height: 15vh;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+  }
+
+  .butt{
+    height: 40px;
+    width: 100px;
+    border-radius: 2rem;
+    font-size: large;
+    cursor: pointer;
+  }
+   
+  .what{
+    /* background-color: antiquewhite; */
+    width: 3%;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+    font-size: larger;
+    font-size: x-large;
+    border-radius: 50rem;
+    margin-top: 1rem;
+    margin-right:1rem ;
+    border: 2px solid black;
+    cursor: default;
+  }
