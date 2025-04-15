@@ -188,5 +188,6 @@ rbut.addEventListener("click",()=>{
         but.innerText="";
         count=0;
         msg.innerText="";
+        but.style.border="";
     }
 })
